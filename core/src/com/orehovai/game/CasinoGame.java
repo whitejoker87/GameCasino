@@ -18,7 +18,7 @@ public class CasinoGame extends ApplicationAdapter {
 	private GameStateManager gsm;
 
 	private SpriteBatch batch;
-	Texture img;
+	//Texture img;
 	
 	@Override
 	public void create () {
@@ -38,6 +38,6 @@ public class CasinoGame extends ApplicationAdapter {
 	@Override
 	public void dispose () {
 		batch.dispose();
-		img.dispose();
+		//img.dispose();
 	}
 }
